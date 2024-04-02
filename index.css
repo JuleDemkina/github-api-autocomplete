@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+.container {
+  background-color: #c4c4c4;
+  margin: auto;
+  margin-top: 40px;
+  min-width: 320px;
+  width: 661px;
+
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.input-field {
+  font-size: 40px;
+  height: 61px;
+  width: 500px;
+  height: 61px;
+  padding-left: 13px;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+.autocomplete {
+  margin-bottom: 45px;
+}
+
+.autocomplete li {
+  font-size: 30px;
+  width: 500px;
+  height: 44px;
+  background-color: #e3e3e3;
+  height: 44px;
+  align-content: center;
+  padding-left: 13px;
+  border: 2px solid black;
+  margin-top: -2px;
+  cursor: pointer;
+}
+
+.autocomplete li:hover {
+  background-color: #65cdf9;
+}
+
+.repositorys {
+  margin-bottom: 72px;
+}
+
+.repositorys li {
+  font-size: 24px;
+  width: 503px;
+  height: 101px;
+  background-color: #e27beb;
+  border: 1px solid black;
+  margin-top: -2px;
+  position: relative;
+  align-content: center;
+  padding-left: 16px;
+}
+
+div {
+  background: none;
+}
+
+.close {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  background: linear-gradient(
+      45deg,
+      transparent calc(50% - 2px),
+      red calc(50% - 2px),
+      red calc(50% + 2px),
+      transparent calc(50% + 2px)
+    ),
+    linear-gradient(
+      -45deg,
+      transparent calc(50% - 2px),
+      red calc(50% - 2px),
+      red calc(50% + 2px),
+      transparent calc(50% + 2px)
+    );
+
+  position: absolute;
+  right: 34px;
+  top: 20px;
+  cursor: pointer;
+}
